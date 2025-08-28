@@ -59,13 +59,13 @@ The script relies on a few command-line tools to function correctly. It will aut
 
 2.  **Make the script executable:**
     ```bash
-    chmod +x custom-NETWORKING-WAKE-ON-LAN.sh
+    chmod +x custom-NETWORKING-WAKE-ON-LAN
     ```
 
 3.  **Run the script with root privileges:**
     The script requires root access for network scanning and sending WOL packets. It will attempt to re-launch itself with `sudo` if needed.
     ```bash
-    sudo ./custom-NETWORKING-WAKE-ON-LAN.sh
+    sudo ./custom-NETWORKING-WAKE-ON-LAN
     ```
 
 ---
